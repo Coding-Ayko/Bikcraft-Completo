@@ -1,0 +1,22 @@
+body{
+	margin: 0px;
+  font-family: 'Poppins', 'roboto';
+  padding-bottom: 600px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+p {
+	margin: 0px;
+}

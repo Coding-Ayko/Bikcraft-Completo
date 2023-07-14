@@ -1,0 +1,10 @@
+/* Geral e Reset inicial e header*/
+@import url(./Geral/reset.css);
+@import url(./Geral/geral.css);
+@import url(./Geral/header.css);
+
+/* Elementos utilitários */
+@import url(./Utilitários/componentes.css);
+
+/* Home e introução*/
+@import url(./Home/introducao.css);
