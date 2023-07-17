@@ -1,0 +1,27 @@
+.tecnologia-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-0);
+}
+
+.tecnologia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:40px;
+}
+
+.tecnologia-img{
+  width: 10%0;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tecnologia-conteudo{
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.tecnologia-conteudo h2{
+  display: block;
+  margin-bottom: 32px;
+}

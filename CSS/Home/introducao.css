@@ -1,7 +1,7 @@
 .introducao-bg {
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: inset 0 -100px #ffffff;
+  background-color: var(--cor-12);
+  color: var(--cor-0);
+  box-shadow: inset 0 -100px var(--cor-0);
 }
 
 
@@ -9,14 +9,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introducao-conteudo{
@@ -26,29 +18,22 @@
 
 
 .introducao img{
+   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .introducao h1{
   margin-bottom: 32px;
-  font-size: 3rem;
-  line-height: 1.125;
-  font-family: 'poppins';
-  font-weight: 600;
 }
 
 .introducao h1 span{
-  color: #ffbb00;
+  color: var(--cor-p1);
 }
 
 .introducao p{
   margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: 'roboto';
-  font-weight: 400;
+  color: var(--cor-5);
 }
 
 @media (max-width: 1200px ) {
@@ -102,8 +87,8 @@
   }
 
   .introducao-bg{
-    background-color: #111;
-    box-shadow: inset 0 -50px #ffffff ;
+    background-color: var(--cor-11);
+    box-shadow: inset 0 -50px var(--cor-0);
   }
 
   .introducao h1{
@@ -123,7 +108,4 @@
     height: 300px;
     width: 100% 
   }
-}
-
-
 }

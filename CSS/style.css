@@ -4,7 +4,13 @@
 @import url(./Geral/header.css);
 
 /* Elementos utilitários */
+@import url(./Utilitários/tipografia.css);
+@import url(./Utilitários/cores.css);
 @import url(./Utilitários/componentes.css);
 
-/* Home e introução*/
+/* Home */
 @import url(./Home/introducao.css);
+@import url(./Home/tecnologia.css);
+
+/* Bicicletas */
+@import url(./Bicicletas/Bicicletas-lista.css);
