@@ -1,0 +1,49 @@
+.footer-bg {
+  background-color: var(--cor-12);
+}
+
+.footer {
+  color: var(--cor-1);
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  padding: 60px;
+  gap: 40px;
+}
+
+.contato{
+  position: relative;
+}
+
+.contato h2,
+.informacoes h2 {
+  margin-bottom: 24px;
+}
+
+.contato li,
+.informacoes li {
+  margin-bottom: 8px;
+}
+
+.contato ul {
+  padding-bottom: 20px;
+}
+
+.redes {
+  display: flex;
+  gap: 30px;
+}
+
+.redes img {
+  width: 32px;
+  height: 32px;
+}
+
+.contato::before{
+  content: "";
+  display: block;
+  width: 400px;
+  height: 2px;
+  background-color: var(--cor-10);
+  position: absolute;
+  top: 215px;
+}

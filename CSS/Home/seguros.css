@@ -11,7 +11,7 @@
   padding: 60px 60px;
   
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 40px;
   align-items: center;
 }
@@ -19,7 +19,7 @@
 .prata-lista,
 .ouro-lista {
   background-color: var(--cor-12);
-  padding: 32px 32px 32px 60px;
+  padding:  32px 32px 60px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
   border-radius: 4px 4px;
