@@ -1,0 +1,73 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+}
+
+.seguros {
+  padding: 60px;
+
+}
+
+.seguros-lista {
+  padding: 60px 60px;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.prata-lista,
+.ouro-lista {
+  background-color: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: 4px 4px;
+  
+}
+
+.prata-lista h3,
+.ouro-lista h3 {
+  margin-bottom: 40px;
+}
+
+.prata-lista span,
+.ouro-lista span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+
+.prata-lista ul,
+.ouro-lista ul {
+  grid-column: 1/-1;
+  margin-bottom: 40px;
+}
+
+.prata-lista li + li,
+.ouro-lista li + li{
+  margin-top: 20px;
+}
+
+.prata-lista li,
+.ouro-lista li{
+  position: relative;
+}
+
+.prata-lista li::before,
+.ouro-lista li::before{
+  content: "";
+  display: inline-flex;
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg) ;
+  position: absolute;
+  left: -21px;
+  top: 10px;
+}
+
+.prata-lista a,
+.ouro-lista a  {
+  grid-column: 1/-1;
+  margin-bottom: 40px;
+}
