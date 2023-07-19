@@ -3,10 +3,11 @@
 }
 
 .footer {
-  color: var(--cor-1);
+  color: var(--cor-5);
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
-  padding: 60px;
+  grid-template-columns: 2fr 3fr 2fr;
+  padding-top: 60px;
+  padding-bottom: 60px;
   gap: 40px;
 }
 
@@ -16,21 +17,21 @@
 
 .contato h2,
 .informacoes h2 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .contato li,
 .informacoes li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .contato ul {
-  padding-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .redes {
   display: flex;
-  gap: 30px;
+  gap: 32px;
 }
 
 .redes img {
@@ -38,12 +39,36 @@
   height: 32px;
 }
 
-.contato::before{
+.contato-item li:nth-child(even):after{
   content: "";
   display: block;
-  width: 400px;
+  max-width: 360px;
   height: 2px;
-  background-color: var(--cor-10);
-  position: absolute;
-  top: 215px;
+  background-color: var(--cor-11);
+  margin-top: 16px;
 }
+
+.direitos{
+  grid-column: 1/-1;
+}
+
+.footer a:hover{
+  color:var(--cor-0)
+}
+
+@media (max-width:800px){
+  .footer > img{
+    display: none;
+  }
+
+  .footer{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:800px){
+  .footer{
+    grid-template-columns: 1fr;
+  }
+}
+
