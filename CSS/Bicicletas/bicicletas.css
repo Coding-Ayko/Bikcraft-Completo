@@ -1,0 +1,116 @@
+.bicicletas-bg{
+  background: linear-gradient(to right, var(--cor-0) 40%, var(--cor-11) 0% );
+  max-width: ;
+}
+
+.bicicletas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicletas-imagem {
+  display:grid ;
+}
+
+.bicicletas-imagem img {
+  grid-area: 1/1;
+}
+
+.bicicletas-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  background-color: var(--cor-12) ;
+  display: inline-block;
+  border-radius: 4px 0px 0px 4px;
+  padding: 8px 16px 8px 8px;
+}
+
+.bicicletas-conteudo{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+  margin-bottom: 40px;
+}
+
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p{
+  grid-column: 1/-1;
+
+}
+
+.bicicletas-conteudo h2{
+  margin-bottom: 20px;
+}
+
+.bicicletas-conteudo h2::before{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.bicicletas p {
+  margin-bottom:32px ;
+}
+
+.bicicletas a{
+  place-self: end;
+}
+
+.bicicletas li{
+  display: flex;
+  align-items: center;
+}
+
+.bicicletas-conteudo ul{
+  display: grid;
+  gap: 16px;
+}
+
+/* Essa é uma outra maneira de selecionar 1 item, mas não selecionar o primeiro, também pode ser usado o nth child*/
+
+/*.bicicletas li + li{
+  margin-top: 16px;
+}*/  
+
+.bicicletas-conteudo img{
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px){
+  .bicicletas-bg{
+    background:  var(--cor-11);
+  }
+
+  .bicicletas{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px){
+ .bicicletas-conteudo{
+  grid-template-columns: 1fr;
+  margin-bottom: 0px;
+  
+ }
+ .bicicletas a {
+  place-self: start;
+ }
+
+ .bicicletas ul{
+  grid-template-columns: 1fr 1fr;
+  font-size: 1rem;
+  margin-bottom: 32px;
+
+ }
+}

@@ -3,13 +3,16 @@
 }
 
 .seguros {
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
+#seguros .seguros{
+  padding-top: 0px;
 }
 
 .seguros-lista {
   padding: 60px 60px;
-  
   display: grid;
   grid-template-columns: 1fr 1fr ;
   gap: 40px;
