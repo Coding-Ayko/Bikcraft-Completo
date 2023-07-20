@@ -1,0 +1,19 @@
+/* Geral e Reset inicial e header*/
+@import url(../CSS/Geral/reset.css);
+@import url(../CSS/Geral/geral.css);
+@import url(../CSS/Geral/header.css);
+@import url(../CSS/Home/footer.css);
+
+/* Elementos utilitários */
+@import url(../CSS/Utilitários/tipografia.css);
+@import url(../CSS/Utilitários/cores.css);
+@import url(../CSS/Utilitários/componentes.css);
+
+
+/* Bicicletas */
+@import url(./Bicicletas/Bicicletas-lista.css);
+@import url(../CSS/Bicicleta/bicicleta.css);
+/* Bicicletas */
+@import url(./Bicicletas/Bicicletas-lista.css);
+
+@import url(../CSS/Bicicleta/seguro.css
