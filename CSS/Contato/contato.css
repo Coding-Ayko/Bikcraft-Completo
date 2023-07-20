@@ -1,0 +1,31 @@
+#contato{
+  background: var(--cor-1);
+}
+
+.contato{
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contato-formulario,
+.contatos-dados{
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 200px;
+}
+
+.contatos-dados{
+  border-radius: 4px 0 0 4px;
+  background: var(--cor-12);
+}
+
+.contato-formulario{
+  border-radius: 0  5px 5px 0;
+  background: var(--cor-0);
+}
+
+.contato-endereco{
+  margin-bottom: 32px;
+  background: url(../../img/icones/local.svg) no-repeat;
+
+}

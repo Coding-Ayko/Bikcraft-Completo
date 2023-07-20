@@ -7,6 +7,7 @@
 @import url(./Utilitários/tipografia.css);
 @import url(./Utilitários/cores.css);
 @import url(./Utilitários/componentes.css);
+@import url(./Utilitários/formularios.css);
 
 /* Home */
 @import url(./Home/introducao.css);
@@ -31,3 +32,7 @@
 @import url(./Seguros/vantagens.css);
 
 @import url(./Bicicleta/bicicleta.css);
+
+@import url(./Contato/contato.css);
+
+@import url(./Contato/lojas.css);
