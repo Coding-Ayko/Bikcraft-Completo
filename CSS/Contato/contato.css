@@ -2,7 +2,7 @@
   background: var(--cor-1);
 }
 
-.contatos-dados{
+.contatos{
   display: grid;
   grid-template-columns: 5fr 7fr;
 }

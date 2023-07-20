@@ -10,3 +10,10 @@ img {
 img[src$=".jpg"]{
   border-radius: 6px;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
