@@ -12,6 +12,7 @@
 
 .form input[type="text"],
 .form input[type="email"],
+.form input[type="number"],
 .form textarea {
   font: 400 1rem/1.5 "roboto", sans-serif;
   background-color: var(--cor-1);
