@@ -26,10 +26,13 @@
   margin-bottom: 20px;
 }
 
-.tecnologia-conteudo h2, p, a{
+.tecnologia-conteudo > h2{
   margin-bottom: 32px;
 }
 
+.item-tecnologia{
+  margin-bottom: 32px;
+}
 
 .tecnologia-vantagens{
   display: flex;
@@ -44,7 +47,6 @@
 
 .tecnologia-vantagens-item img{
   width: 24px;
-  padding: 8px;
 }
 
 @media ( max-width:800px) {

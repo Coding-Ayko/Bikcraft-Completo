@@ -21,11 +21,13 @@ h4,
 h5,
 h6,
 blockquote,
+address,
+a,
 dd,
 p {
 	margin: 0px 0px 0px 0px;
 }
 
-p{
+p,   address{
   padding: 0px;
 }
